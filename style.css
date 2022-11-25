@@ -1,0 +1,152 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.LOGO{
+    
+    width:112px ;
+    height:50px;
+    align-items: center;
+    margin: 25px;
+    font-family: 'Josefin Sans', sans-serif
+}
+
+
+body{
+    
+    margin: auto;
+    max-width: 1440px;
+    
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("./images/bg-desktop.svg")
+    
+}
+
+img{
+    width: 100%;
+    height: auto;
+    
+}
+main{
+    padding: 50px 0;
+    gap: 40px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.conteudo{
+    padding: 0px 10px;
+    
+        
+}
+
+
+h1{
+    width: 350px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+p{
+    width: 500px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    align-items: center;
+}
+
+.button {
+   padding: 20px 55px;
+   background-color: #c962d3;
+   border: none;
+   border-radius: 40px;
+   text-decoration: none;
+   left:600px ;
+   
+}
+.button a{
+    
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+}
+
+.button:hover {
+    
+    border-radius: 40px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+    background-color: #c962d3; 
+    border: none;
+    color: rgb(255, 0, 255);
+    
+    font-size: 22px;
+}
+ul{ 
+    width: 100%;
+    display: flex;
+    gap: 25px;
+    justify-content: end;
+
+
+ }
+
+
+ul li{
+
+    list-style: none;
+    justify-content: right;
+    cursor: pointer;
+}  
+
+ul li .fa-brands{
+    font-size: 25px;
+    color: white;
+    
+
+}
+ul li .fa-brands:hover{
+    font-size: 25px;
+    color: #da80e2 ;
+    border-radius: 25px;
+    box-shadow: 0 1px 2px 0 rgba(255, 0, 179, 0.377);
+    
+
+
+}
+@media(max-width:840px){
+   
+    .imagem{
+       max-width: 100%;
+    }
+    main{
+        display:list-item;
+        margin:auto
+        
+        
+    }
+    h1{
+       margin: auto; 
+    }
+    p{
+        max-width: 100%;
+        margin: auto;
+    }
+    .conteudo{
+        
+        text-align: center;
+        
+    }
+    .nav-list{
+        justify-content: center;
+    }
+    .button{
+        justify-content: center;
+       
+    }
+   
+}
